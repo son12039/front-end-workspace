@@ -1,0 +1,58 @@
+* {
+  background-color: hotpink;
+}
+
+#zz {
+  left: 36%;
+  border: 1px solid white;
+  width: 30%;
+  height: 300px;
+  position: relative;
+  border-radius: 10px;
+}
+#xx {
+  position: absolute;
+  background-image: url(/resources/bao.jpg);
+  width: 100px;
+  height: 100px;
+  top: 20px;
+  left: 27.5%;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: 50%;
+}
+#testcc {
+  position: absolute;
+  color: white;
+  top: 35%;
+  left: 15%;
+}
+#git {
+  border: 1px solid white;
+  width: 80%;
+  height: 10%;
+  position: absolute;
+  top: 55%;
+  left: 10%;
+}
+#gitfont {
+  color: aliceblue;
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  top: -10%;
+}
+#insta {
+  border: 1px solid white;
+  width: 80%;
+  height: 10%;
+  position: absolute;
+  top: 68%;
+  left: 10%;
+}
+#instafont {
+  color: aliceblue;
+  position: absolute;
+  font-size: 12px;
+  left: 35%;
+}
