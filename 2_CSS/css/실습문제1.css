@@ -1,58 +1,59 @@
 * {
-  background-color: hotpink;
+  background-color: mediumseagreen;
+  text-align: center;
 }
 
 #zz {
-  left: 36%;
-  border: 1px solid white;
-  width: 30%;
-  height: 300px;
+  margin: 2% 20% 20% 20%;
   position: relative;
+  border: 1px solid white;
   border-radius: 10px;
+  width: 270px;
+  height: 325px;
+  display: inline-block;
 }
-#xx {
+#picture {
   position: absolute;
-  background-image: url(/resources/bao.jpg);
-  width: 100px;
-  height: 100px;
-  top: 20px;
-  left: 27.5%;
-  border-radius: 50px;
+  width: 28%;
+  height: 24%;
   background-size: cover;
+  border-radius: 100%;
   background-position: 50%;
+  background-image: url(/resources/bao.jpg);
+  left: 36%;
+  top: 5%;
 }
-#testcc {
+#text {
+  font-size: 17px;
+  width: 50%;
   position: absolute;
-  color: white;
+  left: 25%;
   top: 35%;
-  left: 15%;
+  color: white;
 }
 #git {
-  border: 1px solid white;
+  border: solid aliceblue 1px;
+  position: absolute;
   width: 80%;
-  height: 10%;
-  position: absolute;
-  top: 55%;
   left: 10%;
+  top: 50%;
 }
-#gitfont {
-  color: aliceblue;
-  position: absolute;
-  font-size: 12px;
-  text-align: center;
-  top: -10%;
+.git:hover {
+  background-color: chocolate;
+}
+#gittext {
+  color: white;
 }
 #insta {
-  border: 1px solid white;
+  border: solid aliceblue 1px;
+  position: absolute;
   width: 80%;
-  height: 10%;
-  position: absolute;
-  top: 68%;
   left: 10%;
+  top: 70%;
 }
-#instafont {
-  color: aliceblue;
-  position: absolute;
-  font-size: 12px;
-  left: 35%;
+#instatext {
+  color: white;
+}
+.in:hover {
+  background-color: chocolate;
 }
