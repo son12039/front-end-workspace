@@ -1,18 +1,24 @@
 /*머리*/
 header {
   position: fixed;
-  display: flex;
   background-color: white;
   width: 100%;
-  padding: 30px;
+  height: 60px;
+  padding: 20px;
+}
+h1 {
+  display: flex;
+  font-weight: bold;
 }
 .head1 {
   display: flex;
   text-decoration: none;
   color: black;
-  width: 40%;
 }
-
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
 /*몸통*/
 section {
   height: 100vh;
