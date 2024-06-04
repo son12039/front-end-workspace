@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: skyblue;
+  background: linear-gradient(purple, red); /*@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+  height: 100vh;
+}
+.profile-card {
+  text-align: center; /*@@@@@@@@@*/
+  width: 320px;
+  border: 2px solid white;
+  /*
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 20px;
+  */
+  margin: auto;
+  border-radius: 5%;
+  padding: px;
+}
+.profile-image {
+  background-image: url(/resources/bao.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+.profile-card img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.profile-card h2 {
+  color: white;
+  margin-top: 10px;
+}
+.profile-card a {
+  border: 2px solid white;
+  display: block; /*@@@@@@@@*/
+  margin: 15px;
+  /* height: 30px;
+  line-height: 30px; 
+  */
+  padding: 15px;
+  color: white;
+  text-decoration: none; /*@@@@@@@@@@@@@@@@@*/
+  font-weight: bold;
+}
+.profile-card a:hover {
+  background-color: greenyellow;
+  color: black;
+}
