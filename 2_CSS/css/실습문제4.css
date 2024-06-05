@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(3, 16, 75), rgb(38, 0, 255));
+  height: 100vh;
+}
+.square {
+  background-color: white;
+  width: 10px;
+  height: 60px;
+  border-radius: 25%;
+  margin: 2px;
+  animation: boxAni 2s infinite alternate;
+}
+
+@keyframes boxAni {
+  0% {
+    transform: scaleY(0.6);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+.square:nth-child(1),
+.square:nth-child(7) {
+  animation: boxAni 0.2s infinite alternate 0.3s;
+}
+.square:nth-child(2),
+.square:nth-child(6) {
+  animation: boxAni 0.2s infinite alternate 0.4s;
+}
+.square:nth-child(3),
+.square:nth-child(5) {
+  animation: boxAni 0.2s infinite alternate 0.6s;
+}
+.square:nth-child(4) {
+  animation: boxAni 0.2s infinite alternate 0.7s;
+}

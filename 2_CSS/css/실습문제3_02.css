@@ -1,0 +1,41 @@
+.left {
+  position: fixed;
+}
+.left img {
+  width: 40vb;
+  height: 100vh;
+}
+.lefttext {
+  color: white;
+  position: fixed;
+  width: 40vb;
+  height: 100vb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.lefttop {
+}
+.leftbottom a {
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+.right {
+  background-color: aquamarine;
+  width: 100%;
+  height: 100vb;
+  margin-left: 40vb;
+}
+.righttop {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.rightimg {
+  width: 800px;
+  height: 500px;
+  transform: translate(50%);
+}

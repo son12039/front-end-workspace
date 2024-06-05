@@ -1,0 +1,73 @@
+header {
+  background-color: skyblue;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* nav과 h1를 좌우로 찢는다 */
+  height: 80px;
+  line-height: 80px; /* aline-items: center와 같지만 */
+}
+header > * {
+  width: 33.33%;
+  display: flex;
+}
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 15px;
+}
+header form {
+  justify-content: center;
+  height: 100%;
+}
+header nav {
+  height: 100%;
+  display: flex;
+}
+header nav a {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+header nav a:hover {
+  background-color: black;
+  color: white;
+}
+section {
+  height: 100vh; /* 보는 화면크기만큼*/
+  display: flex; /* 텍스트정중앙에 배치하기 세트 1*/
+  justify-content: center; /*1*/
+  align-items: center; /*1*/
+  flex-direction: column; /* 배치순서 세로로 */
+  text-align: center; /*  치우져진 텍스트가 중앙에 이쁘게 밀집됨*/
+}
+#sectionid1 {
+  background-color: red;
+}
+#sectionid2 {
+  background-color: purple;
+}
+#sectionid3 {
+  background-color: yellow;
+}
+section h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+section p {
+  line-height: 1.5;
+}
+#au {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
