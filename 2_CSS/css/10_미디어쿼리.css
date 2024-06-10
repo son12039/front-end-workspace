@@ -1,0 +1,15 @@
+body {
+  background-color: aqua;
+}
+/* 700px 이상 적용 */
+@media screen and (min-width: 600px) {
+  body {
+    background: skyblue;
+  }
+}
+/* 1000px 이상 적용 */
+@media screen and (min-width: 900px) {
+  body {
+    background: navy;
+  }
+}
