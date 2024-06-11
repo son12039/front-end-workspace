@@ -46,7 +46,8 @@
       const Top = 10;
       const Height = 4;
       const Bottom = 14;
-      console.log(((Top + Bottom) / 2) * Height);
+      const trape = ((Top + Bottom) / 2) * Height;
+      console.log(trape);
     </script>
 
     <!-- 
@@ -56,8 +57,8 @@
     -->
     <script>
       const All = 12000000;
-
-      console.log((All * 0.04) / 12 + "원");
+      const mouthly = (All * 0.04) / 12;
+      console.log(mouthly + "원");
     </script>
 
     <!-- 
@@ -65,7 +66,8 @@
      -->
     <script>
       const age = 55;
-      console.log(2025 - age + "년생");
+      const year = 2025 - age;
+      console.log(year + "년생");
     </script>
 
     <!-- 
@@ -75,7 +77,8 @@
     <script>
       const coffee = 5500;
       const Money = 15000;
-      console.log(parseInt(Money / coffee) + "잔");
+      const cup = parseInt(Money / coffee);
+      console.log(cup + "잔");
       console.log((Money % coffee) + "원");
     </script>
 
@@ -88,11 +91,11 @@
       const meetcount = 64;
       const drink = 2000;
       const drinkcount = 6;
-      console.log(
-        meet * meetcount +
-          drink * (drinkcount - parseInt(meetcount / 10)) +
-          "원"
-      );
+      const total =
+        meet * meetcount + drink * (drinkcount - parseInt(meetcount / 10));
+      console.log(total + "원");
+
+      /*
       if (parseInt(drinkcount >= meetcount / 10)) {
         console.log(
           meet * meetcount +
@@ -106,7 +109,7 @@
             "음료수" +
             (-(drinkcount - parseInt(meetcount / 10)) + "개 가져가세요")
         );
-      }
+      }*/
     </script>
   </body>
 </html>
