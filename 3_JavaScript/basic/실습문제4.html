@@ -104,12 +104,9 @@
       let num8 = 0;
       let num88 = [];
       for (let i = 0; i < 5; i++) {
-        console.log(a1[i]);
-        console.log(b1[i]);
         num8 += a1[i] * b1[i];
         num88.push(num8);
         num8 = 0;
-        console.log(num8);
       }
       console.log(num88); //답
       console.log("----------8번----------");
@@ -120,21 +117,15 @@
     -->
     <script>
       const a2 = [12, 0, 2, 5, 4];
-      const b2 = [2, 2, 3, 12, 8];
-      const a22 = []; //12,0,2
+      const b2 = [0, 2, 3, 12, 8];
+
       const c2 = [];
 
       for (let i = 0; i < 5; i++) {
-        a22.unshift(a2[i]);
-        for (let j = 0; j < 5; j++) {
-          if (a22.includes(b2[j])) {
-            c2.unshift(a2[i]);
-            break;
-          }
+        if (a2.includes(b2[i])) {
+          c2.push(b2[i]);
         }
-        a22.splice(0, i);
       }
-
       console.log(c2);
       console.log("----------9번----------");
     </script>
@@ -146,8 +137,8 @@
         [87, 93, 62, 83],
         [98, 90, 77, 97],
       ];
-      let test10 = []; //배열담을 그릇
-      let test100 = 0; //평균낼 그릇
+      let test10 = [];
+      let test100 = 0;
 
       for (let i = 0; i < scores.length; i++) {
         test10 = scores[i];
