@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>실습문제7</title>
+    <link rel="stylesheet" href="./실습문제7.css" />
+  </head>
+  <body>
+    <div class="all">
+      <div class="text">
+        <h1>그림 맞추기 게임</h1>
+        <h4>
+          버튼을 클릭하면, 그림이 출력 됩니다. 모두 같은 그림이 나오면
+          승리합니다.
+        </h4>
+      </div>
+      <div class="imgbox">
+        <img src="/resources/family1.jpg" alt="" class="img" id="img1" />
+        <img src="/resources/family3.jpg" alt="" class="img" id="img2" />
+        <img src="/resources/family2.jpg" alt="" class="img" id="img3" />
+      </div>
+
+      <div class="buttom">
+        <button onclick="btm1()" id="btm1">click</button>
+        <button disabled onclick="btm2()" id="btm2">Restart</button>
+      </div>
+      <div id="fanaltext">할수있다</div>
+    </div>
+    <script src="./실습문제7.js"></script>
+  </body>
+</html>

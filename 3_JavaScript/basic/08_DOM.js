@@ -39,9 +39,9 @@ function btn6() {
 }
 function btn7() {
   const div = document.querySelector("#testId");
-  div.setAttribute("data-test", "테스트1");
-  div.setAttribute("data-test", "테스트2");
-  console.log(div.getAttribute("data-test"));
+  div.setAttribute("dd11", "테스트3");
+  div.setAttribute("dd11", "테스트5");
+  console.log(div.getAttribute("dd11"));
 }
 function btn8() {
   const div = document.querySelector("#testId");

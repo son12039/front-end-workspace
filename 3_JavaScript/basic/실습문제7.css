@@ -1,0 +1,60 @@
+body {
+}
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin-right: 50%;
+  translate: 50%;
+}
+.img {
+  width: 150px;
+  height: 150px;
+  background-color: aqua;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.imgbox {
+  display: flex;
+}
+.buttom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btm1 {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 30px;
+  color: rgb(42, 42, 136);
+  background-color: rgb(236, 132, 167);
+  font-size: 17px;
+}
+#btm1:hover {
+  color: rgb(236, 132, 167);
+  background-color: rgb(42, 42, 136);
+}
+#btm2 {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 30px;
+  color: rgb(236, 132, 167);
+  background-color: rgb(42, 42, 136);
+  font-size: 17px;
+}
+#btm2:hover {
+  color: rgb(42, 42, 136);
+  background-color: rgb(236, 132, 167);
+}
+#fanaltext {
+  width: 200px;
+  height: 100px;
+  color: black;
+  text-align: center;
+}

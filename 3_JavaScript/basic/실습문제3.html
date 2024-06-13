@@ -8,11 +8,8 @@
   <body>
     <!-- Q1. 배열을 문자열로 변환하여 console에 출력하시오. -->
     <script>
-      const tel = ["010", "1234", "5678"];
-      tel.sort();
-      console.log(`${tel[0]}-${tel[1]}-${tel[2]}`);
       const tel1 = ["010", "1234", "5678"];
-      const tel2 = tel1.join("");
+      const tel2 = tel1.join("-");
       console.log(tel2);
       // 출력 예시 : 010-1234-5678
     </script>
@@ -45,7 +42,7 @@
     <!-- Q3. 해당 배열을 이용하여 출력 결과대로 나오게 구현하세요 -->
     <script>
       const music = ["가요", "팝송", "클래식", "재즈", "OST"];
-      music.splice(0, 1);
+      music.splice(0, 1); //배열변경해서출력하는방법
       music.splice(3, 1);
       console.log(music);
       // ['팝송', '클래식', '재즈']
@@ -53,6 +50,13 @@
       music.unshift("OST");
       console.log(music);
       // ['OST']
+      const music1 = ["가요", "팝송", "클래식", "재즈", "OST"];
+      //정답풀이
+      //배열은 그대로 원하는 것만 출력하는 방법
+      const music2 = music1.slice(1, 4);
+      console.log(music2);
+      const music3 = music1.slice(4);
+      console.log(music3);
     </script>
 
     <!-- Q4. 해당 배열을 오름차순(작은 숫자 ~ 큰 숫자)으로 정렬해주세요  -->
