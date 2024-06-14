@@ -1,0 +1,14 @@
+body {
+  display: flex;
+}
+fieldset {
+  width: 500px;
+  height: 600px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+#test1 {
+  width: 100px;
+  height: 18px;
+  border: 1px solid black;
+}

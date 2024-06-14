@@ -33,8 +33,8 @@ function btn5() {
 }
 function btn6() {
   const div = document.querySelectorAll(".testClass");
-  div[0].textContent = "<span>안녕하세요</span>";
-  div[1].innerHTML = "<span>안녕하세요</span>";
+  div[0].textContent = "<span>안녕하세요</span>"; //태그도 문자열로 출력
+  div[1].innerHTML = "<span>안녕하세요</span>"; //태그작동
   console.log(div[1].innerHTML);
 }
 function btn7() {

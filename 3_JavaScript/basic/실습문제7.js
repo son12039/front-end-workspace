@@ -4,6 +4,17 @@ let imgspace3 = document.querySelector("#img3");
 let btn11 = document.querySelector("#btm1");
 let btn22 = document.querySelector("#btm2");
 
+//
+let img = document.querySelectorAll(".img");
+
+function btm3() {
+  console.log(img);
+}
+
+//
+//
+//코드압축
+
 let valimg111 = [];
 let fanaltext = document.querySelector("#fanaltext");
 let count = 0;
