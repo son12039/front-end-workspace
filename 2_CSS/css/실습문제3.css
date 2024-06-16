@@ -1,39 +1,51 @@
-.header {
-}
-
 .left {
   position: fixed;
-  background-image: none;
-  width: 40vh;
+  background-image: url(/resources/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: color;
   height: 100vh;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-.RtextA {
-  position: fixed;
-  z-index: 1;
-}
-.logo {
-  top: 40px;
+.top {
+  margin-top: 30px;
   color: white;
+  font-size: 60px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid white;
 }
-.Rtext {
-  color: black;
-}
-.left img {
-  width: 40vh;
-  height: 100vh;
-}
-.Rtext {
-  color: red;
-}
-.right {
+.bottom {
   display: flex;
-  background-color: brown;
-  height: 100vh;
-  margin-left: 40vh;
+  flex-direction: column;
+  margin-bottom: 100px;
 }
-.right img {
-  width: 60vh;
-  height: 40vh;
-  text-align: center;
-  display: flex;
+.bottom a {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid white;
+  font-weight: bold;
+}
+.main {
+  margin-left: 300px;
+  padding: 20px;
+}
+#top {
+  font-weight: bold;
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+.main img {
+  width: 500px;
+  height: 350px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.main p {
+  line-height: 1.5;
 }
