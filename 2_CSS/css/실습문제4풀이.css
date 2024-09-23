@@ -31,11 +31,20 @@ body {
 @keyframes test4Ani {
   0% {
     transform: scaleY(1);
+    background: linear-gradient(45deg, black, blue);
+  }
+  25% {
+    background: linear-gradient(45deg, black, purple);
   }
   50% {
     transform: scaleY(1.8);
+    background: linear-gradient(45deg, black, red);
+  }
+  75% {
+    background: linear-gradient(45deg, black, orange);
   }
   100% {
     transform: scaleY(1);
+    background: linear-gradient(45deg, black, green);
   }
 }

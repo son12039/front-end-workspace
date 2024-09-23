@@ -1,30 +1,18 @@
 function btn1() {
   let id1 = `${id.value}`;
-  let id11 = id1.split("");
-  let id111 = id11.length;
-  let id1text2 = /[(a-zA-Z)]/;
-  let id1text3 = /([^(a-zA-Z)|\d])/;
+  //  let id11 = id1.split("");
+  console.log(id1);
+
   // /^[(a-zA-Z)][^(a-zA-Z0-9]{3,11}$/
   // /^[!-~]{8,15}$/
-  if (id111 < 12 && id111 > 4) {
-    if (id1text2.test(id1)) {
-      idtext.innerHTML = `아이디 생성이 가능합니다`;
-      idtext.style.color = "black";
-      if (id1text3.test(id1)) {
-        idtext.innerHTML = `첫글자는 반드시 영문자, 영문숫자포함 총 4~12자리로 입력하시오`;
-        idtext.style.color = "red";
-      } else {
-        idtext.innerHTML = `아이디 생성이 가능합니다`;
-        idtext.style.color = "green";
-      }
-    } else {
-      idtext.innerHTML = `첫글자는 반드시 영문자, 영문숫자포함 총 4~12자리로 입력하시오`;
-      idtext.style.color = "red";
-    }
-  } else {
+
+  /*  
+    idtext.innerHTML = `아이디 생성이 가능합니다`;
+    idtext.style.color = "black";
+
     idtext.innerHTML = `첫글자는 반드시 영문자, 영문숫자포함 총 4~12자리로 입력하시오`;
-    idtext.style.color = "red";
-  }
+    idtext.style.color = "red"; */
+
   //
   //
   let pass1 = `${pass.value}`;
