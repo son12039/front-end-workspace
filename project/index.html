@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interest Group Bulletin Board</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Interest Group Bulletin Board</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Groups</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="group-list">
+        <h2>Available Groups</h2>
+        <ul>
+          <li>Book Club</li>
+          <li>Hiking Enthusiasts</li>
+          <li>Cooking Classes</li>
+          <li>Photography Group</li>
+        </ul>
+      </section>
+
+      <section id="create-group">
+        <h2>Create a New Group</h2>
+        <form id="group-form">
+          <label for="group-name">Group Name:</label>
+          <input type="text" id="group-name" name="group-name" required />
+
+          <label for="group-description">Description:</label>
+          <textarea
+            id="group-description"
+            name="group-description"
+            required
+          ></textarea>
+
+          <button type="submit">Create Group</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Interest Group Bulletin Board</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
