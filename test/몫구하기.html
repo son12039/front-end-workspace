@@ -3,10 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>1</title>
+    <title>querySelector 예시</title>
+    <style>
+      .myClass {
+        background-color: yellow;
+        padding: 10px;
+      }
+    </style>
   </head>
   <body>
-    <script src="./몫.js"></script>
-    <h1></h1>
+    <div id="content">
+      <h1>Hello, Document.querySelector!</h1>
+      <p class="myClass">이 문단은 .myClass 클래스를 가지고 있습니다.</p>
+      <p>이 문단은 .myClass 클래스를 가지고 있지 않습니다.</p>
+    </div>
+
+    <script>
+      // JavaScript 코드
+      // .myClass 클래스를 가진 첫 번째 요소 선택하기
+      const element = document.querySelector(".myClass");
+      element.innerHTML = "hi11";
+      console.log(element); // 선택된 요소를 콘솔에 출력
+
+      // #content ID를 가진 요소 선택하기
+      const contentElement = document.querySelector("#content");
+      console.log(contentElement); // 선택된 요소를 콘솔에 출력
+    </script>
   </body>
 </html>
